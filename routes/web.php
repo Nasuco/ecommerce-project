@@ -13,6 +13,7 @@ use App\Livewire\MyOrderDetailPage;
 use App\Livewire\MyOrdersPage;
 use App\Livewire\ProductDetailPage;
 use App\Livewire\ProductsPage;
+use App\Livewire\SuccessPage;
 use Filament\Pages\Auth\Register;
 use Illuminate\Support\Facades\Route;
 
@@ -42,3 +43,4 @@ Route::get('/forgot', ForgotPasswordPage::class);
 Route::get('/reset', ResetPasswordPage::class);
 
 Route::get('/cancel', CancelPage::class);
+Route::get('/success', SuccessPage::class);
